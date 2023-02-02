@@ -63,7 +63,7 @@
   >```py
   >     INPUT n
   >     INPUT A[n]
-  >     maxval = arr[0]
+  >     maxval = A[0]
   > 
   >        for (i = 1; i < n; i++) {
   >          if (A[i] > maxval) {
