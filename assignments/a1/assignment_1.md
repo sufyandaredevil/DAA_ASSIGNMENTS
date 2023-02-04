@@ -1,3 +1,6 @@
+[<kbd>< ASSIGNMENTS</kbd>](../../README.md#assignments-qa)
+
+---
 
 - **Euclid's GCD using Recursion**
   > Algorithm:
