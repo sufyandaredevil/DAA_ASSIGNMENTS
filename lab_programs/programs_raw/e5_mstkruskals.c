@@ -1,28 +1,3 @@
-[<kbd>< LAB PROGRAMS</kbd>](../README.md#lab-programs)  
-[<kbd>< Ex. 4</kbd>](../lab_programs/e4.md)
-[<kbd> Ex. 6 ></kbd>](../lab_programs/e6.md)
-
----
-
-#### Ex. 5 - FINDING MINIMUM SPANNING TREE USING KRUSKAL'S ALGORITHM
-
-**Aim:**
-> To find the minimum cost spanning tree of a given undirected graph using Kruskal's Algorithm
-
-**Algorithm:**
-> 1. A <- ∅  
-> 2. for each vertex v V[G]  
-> 3. do MAKE-SET(v)  
-> 4. Sort the edges of E in non-decreasing order by weight w  
-> 5. for each Edge (u, v) E, taken in non-decreasing order by weight, do:  
->   a. If FIND-SET(u) != FIND-SET(v), then  
->     A <- A{(u, v)}  
->     UNION(u, v)  
-> 6. Return A  
-> 7. Display the mincost as Minimum Cost
-
-**Program:**
-```c
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
@@ -89,23 +64,3 @@ void main()
   printf("\nMinimum Cost: %d\n", mincost);
   getch();
 }
-```
-
-**Output:**
-```
-Enter the number of vertices: 4
-
-Enter the adjacency matrix:
-0 20 10 50
-20 0 60 999
-10 60 0 40
-50 999 40 0
-
-Edge 1:(1 3) Cost: 10
-Edge 2:(1 2) Cost: 20
-Edge 3:(3 4) Cost: 40
-Minimum Cost: 70
-```
-
-**Result:**
-> Thus the program is executed and the output is verified successfully.
