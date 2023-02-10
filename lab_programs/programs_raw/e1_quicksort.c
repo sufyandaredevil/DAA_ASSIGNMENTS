@@ -1,4 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+int RandomizedPartition(int A[100], int start, int end)
+{
+  int randomPivotIndex = (rand() % (end - start + 1)) + start;
+  int temp = A[randomPivotIndex];
+  A[randomPivotIndex] = A[end];
+  A[end] = temp;
+  Partition(A, start, end);
+}
 
 int Partition(int A[100], int start, int end)
 {
@@ -27,7 +37,7 @@ void QuickSort(int A[100], int start, int end)
 {
   if (start < end)
   {
-    int partitionIndex = Partition(A, start, end);
+    int partitionIndex = RandomizedPartition(A, start, end);
     QuickSort(A, start, partitionIndex - 1);
     QuickSort(A, partitionIndex + 1, end);
   }
