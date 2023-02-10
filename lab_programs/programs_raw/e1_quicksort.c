@@ -1,39 +1,35 @@
 #include <stdio.h>
-#include <conio.h>
 
-void QuickSort(int number[100], int first, int last)
+int Partition(int A[100], int start, int end)
 {
-  int i, j, pivot, temp;
-  if (first < last)
+  int i, temp;
+  int pivot = A[end];
+  int partitionIndex = start;
+
+  for (i = start; i < end; i++)
   {
-    pivot = first;
-    i = first;
-    j = last;
-
-    while (i < j)
+    if (A[i] <= pivot)
     {
-      while (number[i] <= number[pivot] && i < last)
-      {
-        i++;
-      }
-      while (number[j] > number[pivot])
-      {
-        j--;
-      }
-      if (i < j)
-      {
-        temp = number[i];
-        number[i] = number[j];
-        number[j] = temp;
-      }
+      temp = A[i];
+      A[i] = A[partitionIndex];
+      A[partitionIndex] = temp;
+      partitionIndex++;
     }
+  }
+  temp = A[partitionIndex];
+  A[partitionIndex] = A[end];
+  A[end] = temp;
 
-    temp = number[pivot];
-    number[pivot] = number[j];
-    number[j] = temp;
+  return partitionIndex;
+}
 
-    QuickSort(number, first, j - 1);
-    QuickSort(number, j + 1, last);
+void QuickSort(int A[100], int start, int end)
+{
+  if (start < end)
+  {
+    int partitionIndex = Partition(A, start, end);
+    QuickSort(A, start, partitionIndex - 1);
+    QuickSort(A, partitionIndex + 1, end);
   }
 }
 
@@ -47,7 +43,7 @@ void main()
 
   for (i = 0; i < count; i++)
   {
-    printf("Enter element %d: ", i + 1);
+    printf("Enter element #%d: ", i + 1);
     scanf("%d", &number[i]);
   }
 
