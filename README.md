@@ -1,7 +1,6 @@
 # DAA MISC:
 
-## ASSIGNMENTS (Q&A):
-#### ASSIGNMENT - 2
+## ASSIGNMENTS 2 (Q&A)
 ---
 
 ## LAB PROGRAMS:
