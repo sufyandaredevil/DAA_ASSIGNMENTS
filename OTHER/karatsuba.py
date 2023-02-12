@@ -13,6 +13,5 @@ def karatsuba(x, y):
         ad_plus_bc = karatsuba(a+b, c+d)-ac-bd
         return ac * (10 ** (2 * half)) + (ad_plus_bc * (10 ** half)) + bd
 
-
 while True:
-    print(karatsuba(int(input()), int(input())))
+    print(karatsuba(int(input("x = ")), int(input("y = "))), end="\n\n")

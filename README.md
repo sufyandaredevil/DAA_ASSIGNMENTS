@@ -1,7 +1,6 @@
 # DAA MISC:
 
 ## ASSIGNMENTS (Q&A):
-#### [ASSIGNMENT - 1](./assignments/a1/assignment_1.md)
 #### ASSIGNMENT - 2
 ---
 
