@@ -1,6 +1,6 @@
 # DAA MISC:
 
-## ASSIGNMENTS 2 (Q&A)
+## ASSIGNMENT 2 (Q&A)
 
 ## LAB PROGRAMS:
 #### [1 - QUICK SORT ALGORITHM](./lab_programs/e1.md#ex-1---quick-sort-algorithm)
