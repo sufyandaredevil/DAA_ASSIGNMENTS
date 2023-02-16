@@ -168,7 +168,7 @@ $$
 
 We can find the intermediates of 4 halves of resultant mat. $C$.
 
-Also, to find mat. $C$,
+Also, to find sub mat. of $C$,
 $$
 \begin{array}{l}
 C_{11}=P_1+P_2-P_3+P_4 \\
@@ -186,6 +186,6 @@ C_{21} & C_{22}
 \end{array}\right]
 $$
 
-Since the length of the matrix is already $2$ x $2$ there'll be no further recursive calls to the strassen's function
+Since the length of the matrix is already $2$ x $2$ there'll be no further recursive calls to the strassen's function for the given problem
 
 ---
