@@ -170,6 +170,7 @@ $$
 We can find the intermediates of 4 halves of resultant mat. $C$.
 
 Also, to find sub mat. of $C$,
+
 $$
 \begin{array}{l}
 C_{11}=P_1+P_2-P_3+P_4 \\
@@ -180,6 +181,7 @@ C_{22}=P_5+P_1-P_6-P_7
 $$
 
 where $C_{11}, C_{12}, C_{21}, C_{22}$ are the 4 halves of mat. $C$ i.e.
+
 $$
 C=\left[\begin{array}{ll}
 C_{11} & C_{12} \\
