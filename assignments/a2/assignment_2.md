@@ -88,4 +88,20 @@
 
   $A=\left[\begin{array}{llll}2 & 1 & 3 & 4 \\ 4 & 3 & 1 & 2 \\ 1 & 4 & 2 & 3 \\ 3 & 2 & 4 & 1\end{array}\right] B=\left[\begin{array}{cccc}5 & 10 & 2 & 3 \\ 3 & 5 & 2 & 10 \\ 1 & 10 & 5 & 3 \\ 2 & 3 & 5 & 10\end{array}\right]$
 
+$$
+A = \begin{bmatrix}
+    2 & 1 & 3 & 4 \\
+    4 & 3 & 1 & 2 \\
+    1 & 4 & 2 & 3 \\
+    3 & 2 & 4 & 1
+\end{bmatrix}
+\qquad
+B = \begin{bmatrix}
+    5 & 10 & 2 & 3 \\
+    3 & 5 & 2 & 10 \\
+    1 & 10 & 5 & 3 \\
+    2 & 3 & 5 & 10
+\end{bmatrix}
+$$
+
 ---
