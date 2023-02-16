@@ -89,11 +89,19 @@
   <ins>Given:</ins>  
 
 $$
-A = \begin{bmatrix} 2 & 1 & 3 & 4 \\ 4 & 3 & 1 & 2 \\ 1 & 4 & 2 & 3 \\ 3 & 2 & 4 & 1 \end{bmatrix}
+A = \begin{bmatrix} 2 & 1 & 3 & 4 \\
+    4 & 3 & 1 & 2 \\
+    1 & 4 & 2 & 3 \\
+    3 & 2 & 4 & 1
+    \end{bmatrix}
 $$
 
 $$
-B = \begin{bmatrix} 5 & 10 & 2 & 3 \\ 3 & 5 & 2 & 10 \\ 1 & 10 & 5 & 3 \\ 2 & 3 & 5 & 10 \end{bmatrix}
+B = \begin{bmatrix} 5 & 10 & 2 & 3 \\
+    3 & 5 & 2 & 10 \\
+    1 & 10 & 5 & 3 \\
+    2 & 3 & 5 & 10
+    \end{bmatrix}
 $$
 
 dividing mat. $A$ and mat. $B$ into 4 equal parts and naming $A$'s halves as $a, b, c, d$ & B's halves as $e, f, g, h$
