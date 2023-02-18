@@ -31,3 +31,7 @@ def strassen(A, B):
     C22 = p5 + p1 - p6 - p7
     C = np.vstack((np.hstack((C11, C12)), np.hstack((C21, C22))))
     return C
+
+m1 = np.array([[2,1,3,4], [4,3,1,2],[1,4,2,3], [3,2,4,1]])
+m2 = np.array([[5,10,2,3], [3,5,2,10],[1,10,5,3], [2,3,5,10]])
+print(strassen(m1, m2))

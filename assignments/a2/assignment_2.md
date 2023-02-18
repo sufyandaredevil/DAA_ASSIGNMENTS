@@ -201,6 +201,19 @@ C_{21} & C_{22}
 \end{array}\right]
 $$
 
+Therefore,
+
+Resultant mat. $C$ will be:
+
+$C = 
+\begin{bmatrix}
+24 & 67 & 41 & 65 \\
+34 & 71 & 29 & 65 \\
+25 & 59 & 35 & 79 \\
+27 & 83 & 35 & 51 \\
+\end{bmatrix}
+$
+
 Since the length of the matrix is already $2$ x $2$ there'll be no further recursive calls to the strassen's function for the given problem
 
 ---
