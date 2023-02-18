@@ -1,3 +1,8 @@
+[<kbd>< ASSIGNMENTS</kbd>](../../README.md#assignments-qa)  
+[<kbd>< As. 1</kbd>](../a1/assignment_1.md)
+<!-- [<kbd> As. 3 ></kbd>](../a3/) -->
+
+---
 
 - **Convex Hull General Definition and Brute Force Approach**
 
