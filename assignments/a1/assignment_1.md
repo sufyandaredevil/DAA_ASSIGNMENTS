@@ -1,5 +1,5 @@
 [<kbd>< ASSIGNMENTS</kbd>](../../README.md#assignments-qa)  
-[<kbd> Ex. 2 ></kbd>](../a2/assignment_2.md)
+[<kbd> As. 2 ></kbd>](../a2/assignment_2.md)
 
 ---
 
