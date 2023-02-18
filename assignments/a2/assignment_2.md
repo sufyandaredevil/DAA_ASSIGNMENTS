@@ -88,132 +88,132 @@
 
   <ins>Given:</ins>  
 
-  $$
-  A = \begin{bmatrix} 2 & 1 & 3 & 4 \\
-      4 & 3 & 1 & 2 \\
-      1 & 4 & 2 & 3 \\
-      3 & 2 & 4 & 1
-      \end{bmatrix}
-  $$
-  
-  $$
-  B = \begin{bmatrix} 5 & 10 & 2 & 3 \\
-      3 & 5 & 2 & 10 \\
-      1 & 10 & 5 & 3 \\
-      2 & 3 & 5 & 10
-      \end{bmatrix}
-  $$
-  
-  dividing mat. $A$ and mat. $B$ into 4 equal parts and naming $A$'s halves as $a, b, c, d$ & B's halves as $e, f, g, h$
-  
-  i.e. $A$'s halves will be:
-  
-  $$
-  \begin{aligned}
-  & \text a=\left[\begin{array}{ll}
-  A_{11} & A_{12} \\
-  A_{21} & A_{22}
-  \end{array}\right]=\left[\begin{array}{ll}
-  2 & 1 \\
-  4 & 3
-  \end{array}\right] \\
-  & b=\left[\begin{array}{ll}
-  A_{13} & A_{14} \\
-  A_{23} & A_{24}
-  \end{array}\right]=\left[\begin{array}{ll}
-  3 & 4 \\
-  1 & 2
-  \end{array}\right] \\
-  & c=\left[\begin{array}{ll}
-  A_{31} & A_{32} \\
-  A_{41} & A_{42}
-  \end{array}\right]=\left[\begin{array}{ll}
-  1 & 4 \\
-  3 & 2
-  \end{array}\right] \\
-  & d=\left[\begin{array}{ll}
-  A_{33} & A_{34} \\
-  A_{43} & A_{44}
-  \end{array}\right]=\left[\begin{array}{ll}
-  2 & 3 \\
-  4 & 1
-  \end{array}\right] \\
-  &
-  \end{aligned}
-  $$
-  
-  Similarly for $B$'s halves:
-  
-  $$
-  \begin{aligned}
-  & e=\left[\begin{array}{ll}
-  5 & 10 \\
-  3 & 5
-  \end{array}\right] \\
-  & f=\left[\begin{array}{ll}
-  2 & 3 \\
-  2 & 10
-  \end{array}\right] \\
-  & g=\left[\begin{array}{ll}
-  1 & 10 \\
-  2 & 3
-  \end{array}\right] \\
-  & h=\left[\begin{array}{cc}
-  5 & 3 \\
-  5 & 10
-  \end{array}\right]
-  \end{aligned}
-  $$
-  
-  using:
-  
-  $$
-  \begin{aligned}
-  & P_1=(a+d)(e+h) \\
-  & P_2=d(g-e) \\
-  & P_3=(a+b) h \\
-  & P_4=(b-d)(g+h) \\
-  & P_5=a(f-h) \\
-  & P_6=(c+d) e \\
-  & P_7=(a-c)(e+f)
-  \end{aligned}
-  $$
-  
-  We can find the intermediates of 4 halves of resultant mat. $C$.
-  
-  Also, to find sub mat. of $C$,
-  
-  $$
-  \begin{array}{l}
-  C_{11}=P_1+P_2-P_3+P_4 \\
-  C_{12}=P_5+P_3 \\
-  C_{21}=P_6+P_2 \\
-  C_{22}=P_5+P_1-P_6-P_7
-  \end{array}
-  $$
-  
-  where $C_{11}, C_{12}, C_{21}, C_{22}$ are the 4 halves of mat. $C$ i.e.
-  
-  $$
-  C=\left[\begin{array}{ll}
-  C_{11} & C_{12} \\
-  C_{21} & C_{22}
-  \end{array}\right]
-  $$
-  
-  Therefore,
-  
-  Resultant mat. $C$ will be:
-  
-  $$C = 
-  \begin{bmatrix}
-  24 & 67 & 41 & 65 \\
-  34 & 71 & 29 & 65 \\
-  25 & 59 & 35 & 79 \\
-  27 & 83 & 35 & 51 \\
-  \end{bmatrix}
-  $$
-  
-  Since the length of the matrix is already $2$ x $2$ there'll be no further recursive calls to the strassen's function for the given problem
+$$
+A = \begin{bmatrix} 2 & 1 & 3 & 4 \\
+    4 & 3 & 1 & 2 \\
+    1 & 4 & 2 & 3 \\
+    3 & 2 & 4 & 1
+    \end{bmatrix}
+$$
+
+$$
+B = \begin{bmatrix} 5 & 10 & 2 & 3 \\
+    3 & 5 & 2 & 10 \\
+    1 & 10 & 5 & 3 \\
+    2 & 3 & 5 & 10
+    \end{bmatrix}
+$$
+
+dividing mat. $A$ and mat. $B$ into 4 equal parts and naming $A$'s halves as $a, b, c, d$ & B's halves as $e, f, g, h$
+
+i.e. $A$'s halves will be:
+
+$$
+\begin{aligned}
+& \text a=\left[\begin{array}{ll}
+A_{11} & A_{12} \\
+A_{21} & A_{22}
+\end{array}\right]=\left[\begin{array}{ll}
+2 & 1 \\
+4 & 3
+\end{array}\right] \\
+& b=\left[\begin{array}{ll}
+A_{13} & A_{14} \\
+A_{23} & A_{24}
+\end{array}\right]=\left[\begin{array}{ll}
+3 & 4 \\
+1 & 2
+\end{array}\right] \\
+& c=\left[\begin{array}{ll}
+A_{31} & A_{32} \\
+A_{41} & A_{42}
+\end{array}\right]=\left[\begin{array}{ll}
+1 & 4 \\
+3 & 2
+\end{array}\right] \\
+& d=\left[\begin{array}{ll}
+A_{33} & A_{34} \\
+A_{43} & A_{44}
+\end{array}\right]=\left[\begin{array}{ll}
+2 & 3 \\
+4 & 1
+\end{array}\right] \\
+&
+\end{aligned}
+$$
+
+Similarly for $B$'s halves:
+
+$$
+\begin{aligned}
+& e=\left[\begin{array}{ll}
+5 & 10 \\
+3 & 5
+\end{array}\right] \\
+& f=\left[\begin{array}{ll}
+2 & 3 \\
+2 & 10
+\end{array}\right] \\
+& g=\left[\begin{array}{ll}
+1 & 10 \\
+2 & 3
+\end{array}\right] \\
+& h=\left[\begin{array}{cc}
+5 & 3 \\
+5 & 10
+\end{array}\right]
+\end{aligned}
+$$
+
+using:
+
+$$
+\begin{aligned}
+& P_1=(a+d)(e+h) \\
+& P_2=d(g-e) \\
+& P_3=(a+b) h \\
+& P_4=(b-d)(g+h) \\
+& P_5=a(f-h) \\
+& P_6=(c+d) e \\
+& P_7=(a-c)(e+f)
+\end{aligned}
+$$
+
+We can find the intermediates of 4 halves of resultant mat. $C$.
+
+Also, to find sub mat. of $C$,
+
+$$
+\begin{array}{l}
+C_{11}=P_1+P_2-P_3+P_4 \\
+C_{12}=P_5+P_3 \\
+C_{21}=P_6+P_2 \\
+C_{22}=P_5+P_1-P_6-P_7
+\end{array}
+$$
+
+where $C_{11}, C_{12}, C_{21}, C_{22}$ are the 4 halves of mat. $C$ i.e.
+
+$$
+C=\left[\begin{array}{ll}
+C_{11} & C_{12} \\
+C_{21} & C_{22}
+\end{array}\right]
+$$
+
+Therefore,
+
+Resultant mat. $C$ will be:
+
+$$C = 
+\begin{bmatrix}
+24 & 67 & 41 & 65 \\
+34 & 71 & 29 & 65 \\
+25 & 59 & 35 & 79 \\
+27 & 83 & 35 & 51 \\
+\end{bmatrix}
+$$
+
+Since the length of the matrix is already $2$ x $2$ there'll be no further recursive calls to the strassen's function for the given problem
 
 ---
