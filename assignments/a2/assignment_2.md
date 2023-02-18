@@ -88,9 +88,10 @@
 ---
 
 - **Matrix Multiplication using Strassen's Algorithm**
-
-  ## NOTE: FULL SOLUTION FOR THIS PROBLEM IS NOT GIVEN AND ONLY FORMULAS & FINAL SOLUTION IS PRESENT
-
+  
+  > **Note**  
+  > **ONLY FINAL SOLUTION & FORMULAS ARE PRESENT, NOT THE INTERMEDIARY STEPS**  
+  
   <ins>Given:</ins>  
 
 $$
