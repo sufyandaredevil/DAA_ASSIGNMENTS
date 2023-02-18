@@ -1,6 +1,6 @@
 # DAA MISC:
 
-- ## ASSIGNMENTS (Q&A):
+- ## ASSIGNMENTS:
   >|[1](./assignments/a1/assignment_1.md)|[2](./assignments/a2/assignment_2.md)|3|4|5|
   >|-|-|-|-|-|
 
