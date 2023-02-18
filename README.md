@@ -5,7 +5,7 @@
   >|-|-|-|-|-|
 
 - ## LAB PROGRAMS:
-  > |Ex. No.|Ex.Name|
+  > |Ex. No.|Ex. Name|
   > |:-:|-|
   > |1|[Quick Sort Algorithm](./lab_programs/e1.md#ex-1---quick-sort-algorithm)|
   > |2|[Merge Sort Algorithm](./lab_programs/e2.md#ex-1---merge-sort-algorithm)|
