@@ -15,5 +15,3 @@
   > |6|[Finding Minimum Spanning Tree using Prims's Algorithm](./lab_programs/e6.md#ex-6---finding-minimum-spanning-tree-using-primss-algorithm)|
   > |7|[N-Queen Problem using Backtracking](./lab_programs/e7.md#ex-7---n-queen-problem-using-backtracking)|
   > |8|[Binary Search Algorithm](./lab_programs/e8.md#ex-8---binary-search-algorithm)|
-
----
