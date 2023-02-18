@@ -142,9 +142,6 @@
   > 
   > T(n) = log(n) base 2 + 1
   > 
-  > Therefore, the time complexity of the bincountrecursive(n) function is O(log n).
-
-
   > ∴ The Time Complexity for the given recurrence relation is O(logn)
   >```
   >---
