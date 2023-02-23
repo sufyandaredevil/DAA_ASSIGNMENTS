@@ -6,10 +6,11 @@
 
 ### QUESTIONS:
 1. (a) Explain:  
-    (i) **Floyd's**  
-    (ii) **Warshall's**  
-    (iii) **Dijikstra's**  
-   (b) Also apply each algorithm for the given graph:
+    - **Floyd's**  
+    - **Warshall's**  &
+    - **Dijikstra's**  Algorithm
+
+    (b) Also apply each algorithm for the given graph:
 
     >```mermaid
     >flowchart TD
