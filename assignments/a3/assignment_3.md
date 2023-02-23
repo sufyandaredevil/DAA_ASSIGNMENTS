@@ -5,7 +5,11 @@
 ---
 
 ### QUESTIONS:
-1. Explain **Floyd's** and **Warshall's** Algorithm and apply them for the given graph:
+1. (a) Explain:  
+    (i) **Floyd's**  
+    (ii) **Warshall's**  
+    (iii) **Dijikstra's**  
+   (b) Also apply each algorithm for the given graph:
 
     >```mermaid
     >flowchart TD
@@ -19,15 +23,12 @@
     >D --6--> A
     >```
 
-2. Explain **Optimal Binary Search** Tree and apply for the given keys:
+2. (a) Explain **Optimal Binary Search Tree**  
+   (b) Apply the OBST Algorithm for the given keys:
 
     >|Key|A|B|C|D|
     >|:-:|:-:|:-:|:-:|:-:|
-    >|P(K)|0.1|0.2|0.4|0.3|
-
-3. **TBD**
-
-4. **TBD**
+    >|**P(K)**|0.1|0.2|0.4|0.3|
 
 ---
 ##### (ANSWERS WILL BE POSTED LATER)
