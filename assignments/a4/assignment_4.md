@@ -37,15 +37,13 @@
 
 4. Explain the **Assignment Problem** and find the minimum cost of assigning 4 different jobs to 4 people for the given cost matrix using **Branch and Bound** Technique:
 
-    >$$ 
-    >\begin{bmatrix}
+    >$$\begin{bmatrix}
     >& J_1 & J_2 & J_3 & J_4 \\
     >P_1 & 11 & 4 & 9 & 10 \\
     >P_2 & 8 & 6 & 5 & 9 \\
     >P_3 & 7 & 10 & 3 & 10 \\
     >P_4 & 9 & 8 & 11 & 6 \\
-    >\end{bmatrix}
-    >$$
+    >\end{bmatrix}$$
 
 
 ---
