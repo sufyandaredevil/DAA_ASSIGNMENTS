@@ -22,6 +22,7 @@
     > ```
 
 2. Explain the **Travelling Salesman Problem** and find the shortest possible route for the given distance matrix using:  (i) **Greedy Approach** &  (ii) **Branch and Bound** 
+
     >$$ 
     >\begin{bmatrix}
     >& A & B & C & D & E \\
@@ -35,6 +36,7 @@
 
 
 4. Explain the **Assignment Problem** and find the minimum cost of assigning 4 different jobs to 4 people for the given cost matrix using **Branch and Bound** Technique:
+
     >$$ 
     >\begin{bmatrix}
     >& J_1 & J_2 & J_3 & J_4 \\
