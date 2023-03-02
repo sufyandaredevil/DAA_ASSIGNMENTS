@@ -5,7 +5,7 @@
 ---
 
 ### QUESTIONS:
-1. Explain **Hamiltonian Circuit Problem** and find the Hamiltonian circuit using **Backtracking** approach.
+1. Explain **Hamiltonian Circuit Problem** and find the Hamiltonian circuit for the given graph using **Backtracking** approach.
     > ```mermaid
     > graph LR;
     > 1((1)) --- 3((3));
