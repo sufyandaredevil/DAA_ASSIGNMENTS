@@ -232,8 +232,6 @@ Using the following table we can find out the shortest path's cost and backtrack
 |$2$|$-$|<kbd style="font-weight:bold;">6₁</kbd>|$-$|16₂|
 |$4$ (destination)|$-$|$-$|$-$|<kbd style="font-weight:bold;">16₂</kbd> (shortest path's cost)|
 
-₂₃₄
-
 Explanation:
 - To find the shortest path's cost:
 - First we take the source vertex $1$ in the first row and place $0$ in the 1st row, 1st column and place the value 1 as a subscript to the value 0 (0₁) which denotes that the value 0 is obtained via the recently traversed vertex 1 and mark the value so that no further changes need to be done to it or for the other bottom columns.
