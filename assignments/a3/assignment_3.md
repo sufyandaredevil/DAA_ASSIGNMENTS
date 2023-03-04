@@ -219,7 +219,7 @@ r^{(4)} = \begin{bmatrix}
     \end{bmatrix}
 $$
 
-Hence for the given graph each and every vertex $j$ can be visited from any vertex $i$.
+Hence for the given graph each and every vertex $j$ can be visited from any vertex $i$ without or via vertex $k$.
 
 ---
 
