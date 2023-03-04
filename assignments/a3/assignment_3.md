@@ -38,7 +38,7 @@
 > **Note**  
 > **ONLY INTERMEDIARY, FINAL SOLUTION & FORMULAS ARE PRESENT, NOT THE INTERMEDIARY STEPS**  
 
-- using **Floyd's:**  
+- <ins>using **Floyd's:**</ins>  
 
 $d_{ij}^{(k)} = w_{ij}$, if $k = 0$
 
@@ -139,7 +139,7 @@ $$
 
 Therefore, $d^{(4)}$ denotes the shortest path distances between all pairs of vertices for the given graph.
 
-- using **Warshall's:**  
+- <ins>using **Warshall's:**</ins>  
 
 $r_{ij}^{(k)} = r_{ij}^{(k-1)} \lor (r_{ik}^{(k-1)} \land r_{kj}^{(k-1)})$
 
