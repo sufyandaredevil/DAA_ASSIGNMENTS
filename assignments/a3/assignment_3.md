@@ -258,6 +258,10 @@ Explanation:
 ![](./a3_4.png)
 
 2.(b)  
+
+> **Note**  
+> **ONLY INTERMEDIARY, FINAL SOLUTION & FORMULAS ARE PRESENT, NOT THE INTERMEDIARY STEPS**  
+
 ![](./a3_5.png)
 
 ---
