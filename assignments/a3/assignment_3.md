@@ -147,9 +147,6 @@ Therefore, $d^{(4)}$ denotes the shortest path distances between all pairs of ve
     >|:-:|:-:|:-:|:-:|:-:|
     >|**P(K)**|0.1|0.2|0.4|0.3|
 
-<details>
-<summary style="font-weight: bold;">Solution:</summary>
-
 2.(a)  
 - **Optimal Binary Search Tree:**  
 ![](./a3_4.png)
@@ -157,7 +154,5 @@ Therefore, $d^{(4)}$ denotes the shortest path distances between all pairs of ve
 2.(b)  
 - **Optimal Binary Search Tree:**  
 ![](./a3_5.png)
-
-</details>
 
 ---
