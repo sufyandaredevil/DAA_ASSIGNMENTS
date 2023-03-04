@@ -4,7 +4,6 @@
 
 ---
 
-### QUESTIONS:
 1. (a) Explain:  
     - **Floyd's**  
     - **Warshall's**  &
@@ -23,6 +22,40 @@
     >D --1--> A
     >D --6--> A
     >```
+
+    <details>
+    <summary style="font-weight: bold;">Solution:</summary>
+
+    1.(a)  
+    - **Floyd's Algorithm:**  
+    ![](./a3_1.png)
+
+    - **Warshall's Algorithm:**  
+    ![](./a3_2.png)
+
+    - **Dijkstra's Algorithm:**  
+    ![](./a3_3.png)
+
+    1.(b)  
+    - using **Floyd's:**  
+
+    $$
+    d_{ij}^{(k)} = \begin{cases}
+    w_{ij}, &\text{if } k = 0 \\
+    \min \left(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)} \right), &\text{if } k \geq 1
+    \end{cases}
+    $$
+
+    $$
+    A = \begin{bmatrix} 2 & 1 & 3 & 4 \\
+        4 & 3 & 1 & 2 \\
+        1 & 4 & 2 & 3 \\
+        3 & 2 & 4 & 1
+        \end{bmatrix}
+    $$
+
+
+    </details>
 
 ---
 
