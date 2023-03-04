@@ -105,7 +105,7 @@ $$
     \end{bmatrix}
 $$
 
-So the intermediary and final solution of the given graph are:  
+So the intermediary and final solution for the given graph are:  
 
 $$
  d^{(2)}= \begin{bmatrix} 
