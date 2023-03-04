@@ -23,8 +23,8 @@
 >D --6--> A
 >```
 
-<details>
-<summary style="font-weight: bold;">Solution:</summary>
+<!-- <details>
+<summary style="font-weight: bold;">Solution:</summary> -->
 
 1.(a)  
 - **Floyd's Algorithm:**  
@@ -43,20 +43,19 @@
 
 - using **Floyd's:**  
 
-$$d_{ij}^{(k)} = \begin{cases}
-w_{ij}, &\text{if } k = 0 \\
-\min \left(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)} \right), &\text{if } k \geq 1
-\end{cases}$$
+$$ d_{ij}^{(k)} = \begin{cases} w_{ij}, &\text{if } k = 0 \\ \min \left(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)} \right), &\text{if } k \geq 1 \end{cases} $$
 
 initially, $d^{(0)}$ denotes the adjacency matrix of the given graph, i.e.  
 
-$$d^{(0)} = \begin{bmatrix} 
+$$
+d^{(0)} = \begin{bmatrix} 
       & 1 & 2 & 3 & 4 \\
     1 & 0 & 6 & 6 & \infty \\
     2 & \infty & 0 & 2 & 10 \\
     3 & \infty & 3 & 0 & 12 \\
     4 & 1 & \infty & \infty & 0
-    \end{bmatrix}$$
+    \end{bmatrix}
+$$
 
 to find $d_{ij}^{(1)}$, where $k = 1$, $i = 1$ and $j = 2,3,4$,  
 we need not recalculate $ith$ row and $ith$ column i.e.,
@@ -140,7 +139,7 @@ $$
 
 Therefore, $d^{(4)}$ denotes the shortest path distances between all pairs of vertices for the given graph.
 
-</details>
+<!-- </details> -->
 
 ---
 
