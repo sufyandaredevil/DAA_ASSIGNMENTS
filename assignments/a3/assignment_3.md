@@ -43,7 +43,7 @@
 
 - using **Floyd's:**  
 
-$$ d_{ij}^{(k)} = \begin{cases} w_{ij}, &\text{if } k = 0 \\ \min \left(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)} \right), &\text{if } k \geq 1 \end{cases} $$
+$d_{ij}^{(k)} = \begin{cases} w_{ij}, &\text{if } k = 0 \\ \min \left(d_{ij}^{(k-1)}, d_{ik}^{(k-1)} + d_{kj}^{(k-1)} \right), &\text{if } k \geq 1 \end{cases}$
 
 initially, $d^{(0)}$ denotes the adjacency matrix of the given graph, i.e.  
 
