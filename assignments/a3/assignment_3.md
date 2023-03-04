@@ -221,6 +221,32 @@ $$
 
 Hence for the given graph each and every vertex $j$ can be visited from any vertex $i$ without or via vertex $k$.
 
+- <ins>using **Dijkstra's:**</ins>  
+**Considering the Source to be vertex 1, and destination as vertex 4.**
+Using the following table we can find out the shortest path's cost and backtrack to find the shortest path:
+
+|$V$|$1$|$2$|$3$|$4$|
+|:-:|:-:|:-:|:-:|:-:|
+|$1$ (source)|<kbd style="font-weight:bold;">0₁</kbd>|6₁|6₁|$\infty$|
+|$3$|$-$|6₁|<kbd style="font-weight:bold;">6₁</kbd>|18₃|
+|$2$|$-$|<kbd style="font-weight:bold;">6₁</kbd>|$-$|16₂|
+|$4$ (destination)|$-$|$-$|$-$|<kbd style="font-weight:bold;">16₂</kbd> (shortest path's cost)|
+
+₂₃₄
+
+Explanation:
+- To find the shortest path's cost:
+- First we take the source vertex $1$ in the first row and place $0$ in the 1st row, 1st column and place the value 1 as a subscript to the value 0 (0₁) which denotes that the value 0 is obtained via the recently traversed vertex 1 and mark the value so that no further changes need to be done to it or for the other bottom columns.
+- Then save each of the edge cost from vertex 1 to other vertices i.e., from vertex 1 to 2, the edge cost is 6, so we add it with the marked value which is 0. And since this is the first iteration we don't have previous columns to compare whether we obtained a short path already, but in that case we need to select the minimum among them. We need add the newly found path to the marked value that is present in that specific row and compare it with the previous column value and save the shortest among them in the new cell.
+- If a vertex is not directly reachable or not adjacent, place $\infty$ in that cell.
+- Now out all the values found for the column vertex 1 we need to find which one is the smallest(excluding the marked value ). Next that value has to be copied(along with the subscript) in the very next column and name the row as the column's vertex where we got the minimum value. In that case we get the value to be 3(In this case we get 2 similar values 6 in both row 1, column 2 and row 1, column 3, but we select the second option).
+- Again we perform the above steps until we find all the cell values.
+- Now the 4th row, 4th column cell will contain the minimum cost to travel from vertex 1 to 4 which is 16.
+- To find the shortest path:
+- we need to look at the last value in the 4th row, 4th column i.e. 16₂ which means the value 16 is obtained when traversed through vertex 2. So the intermediate backtrack result would be 2 -> 4. Then we look at the marked value in row 2 which is 6₁, again which means the value 6 is obtained when traversed through vertex 1 and the resultant backtracked path would be: 1 -> 2 -> 4.
+- Since we know that 1 is the source vertex we can stop backtracking and obtain the final shortest path
+- Therefore the shortest path from vertex 1 to 4 is **1 -> 2 -> 4** with a travel cost of **16**.
+
 ---
 
 2. (a) Explain **Optimal Binary Search Tree**  
@@ -234,7 +260,6 @@ Hence for the given graph each and every vertex $j$ can be visited from any vert
 ![](./a3_4.png)
 
 2.(b)  
-- **Optimal Binary Search Tree:**  
 ![](./a3_5.png)
 
 ---
