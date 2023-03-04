@@ -167,7 +167,7 @@ So,
 
 $d^{(1)} \rightarrow r^{(1)} \Rightarrow$
 
-$
+$$
 \begin{bmatrix} 
       0 & 6 & 6 & \infty \\
       \infty & 0 & 2 & 10 \\
@@ -179,16 +179,16 @@ $
       0 & 1 & 1 & 1 \\
       1 & 1 & 1 & 1
 \end{array}\right] \\
-$
+$$
 
-$
+$$
 \therefore r^{(1)} = \begin{bmatrix} 
       1 & 1 & 1 & 0 \\
       0 & 1 & 1 & 1 \\
       0 & 1 & 1 & 1 \\
       1 & 1 & 1 & 1
     \end{bmatrix}
-$
+$$
 
 Similarly we find $r^{(2)}$, $r^{(3)}$, $r^{(4)}$ and end up with the following matrices:
 
