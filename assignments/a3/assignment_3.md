@@ -166,10 +166,8 @@ For finding $r^{(1)}$ we make use of $d^{(1)}$
 So,
 
 $$
-d^{(1)} \rightarrow r^{(1)}
-$$
+d^{(1)} \rightarrow r^{(1)} \Rightarrow
 
-$$
 \begin{bmatrix} 
       0 & 6 & 6 & \infty \\
       \infty & 0 & 2 & 10 \\
@@ -181,7 +179,6 @@ $$
       0 & 1 & 1 & 1 \\
       1 & 1 & 1 & 1
 \end{array}\right] \\
-
 $$
 
 $$
