@@ -165,9 +165,9 @@ To find out the transitive closure of the given graph without using the formula 
 For finding $r^{(1)}$ we make use of $d^{(1)}$
 So,
 
-$$
-d^{(1)} \rightarrow r^{(1)} \Rightarrow
+$d^{(1)} \rightarrow r^{(1)} \Rightarrow$
 
+$
 \begin{bmatrix} 
       0 & 6 & 6 & \infty \\
       \infty & 0 & 2 & 10 \\
@@ -179,16 +179,16 @@ d^{(1)} \rightarrow r^{(1)} \Rightarrow
       0 & 1 & 1 & 1 \\
       1 & 1 & 1 & 1
 \end{array}\right] \\
-$$
+$
 
-$$
+$
 \therefore r^{(1)} = \begin{bmatrix} 
       1 & 1 & 1 & 0 \\
       0 & 1 & 1 & 1 \\
       0 & 1 & 1 & 1 \\
       1 & 1 & 1 & 1
     \end{bmatrix}
-$$
+$
 
 Similarly we find $r^{(2)}$, $r^{(3)}$, $r^{(4)}$ and end up with the following matrices:
 
