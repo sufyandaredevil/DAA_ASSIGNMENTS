@@ -23,9 +23,6 @@
 >D --6--> A
 >```
 
-<details>
-<summary style="font-weight: bold;">Solution:</summary>
-
 1.(a)  
 - **Floyd's Algorithm:**  
 ![](./a3_1.png)
@@ -141,8 +138,6 @@ $$
 $$
 
 Therefore, $d^{(4)}$ denotes the shortest path distances between all pairs of vertices for the given graph.
-
-</details>
 
 ---
 
