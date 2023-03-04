@@ -23,8 +23,8 @@
 >D --6--> A
 >```
 
-<!-- <details>
-<summary style="font-weight: bold;">Solution:</summary> -->
+<details>
+<summary style="font-weight: bold;">Solution:</summary>
 
 1.(a)  
 - **Floyd's Algorithm:**  
@@ -142,7 +142,7 @@ $$
 
 Therefore, $d^{(4)}$ denotes the shortest path distances between all pairs of vertices for the given graph.
 
-<!-- </details> -->
+</details>
 
 ---
 
@@ -151,5 +151,18 @@ Therefore, $d^{(4)}$ denotes the shortest path distances between all pairs of ve
     >|Key|A|B|C|D|
     >|:-:|:-:|:-:|:-:|:-:|
     >|**P(K)**|0.1|0.2|0.4|0.3|
+
+<details>
+<summary style="font-weight: bold;">Solution:</summary>
+
+2.(a)  
+- **Optimal Binary Search Tree:**  
+![](./a3_4.png)
+
+2.(b)  
+- **Optimal Binary Search Tree:**  
+![](./a3_5.png)
+
+</details>
 
 ---
