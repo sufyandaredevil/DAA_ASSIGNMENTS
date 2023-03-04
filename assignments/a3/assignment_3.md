@@ -139,6 +139,91 @@ $$
 
 Therefore, $d^{(4)}$ denotes the shortest path distances between all pairs of vertices for the given graph.
 
+- using **Warshall's:**  
+
+$r_{ij}^{(k)} = r_{ij}^{(k-1)} \lor (r_{ik}^{(k-1)} \land r_{kj}^{(k-1)})$
+
+For the given graph $r^{(0)}$ denotes the adjacency boolean, i.e.,  
+For eg: if a path from vertex $i$ to $j$ exists we denote it as **1** or else **0**.  
+Also Diagonal elements should be 1 since each vertex can be visited by itself.
+
+$$
+\therefore r^{(0)} = \begin{bmatrix} 
+      1 & 1 & 1 & 0 \\
+      0 & 1 & 1 & 1 \\
+      0 & 1 & 1 & 1 \\
+      1 & 0 & 0 & 1
+    \end{bmatrix}
+$$
+
+To find out the transitive closure of the given graph without using the formula we can make use of floyd's solution that we found already ($d^{(1)}$, $d^{(2)}$, $d^{(3)}$, $d^{(4)}$). To find $r^{(1)}$, $r^{(2)}$, $r^{(3)}$, $r^{(4)}$:  
+
+- Places where we have infinity($\infty$) in the floyd's matrix we can place $0$ as a boolean value
+- Places where we have a value greater than $0$ we place boolean $1$.
+- Diagonal Elements where $i = j$ should have the boolean value $1$ and this is because every vertex in a graph is trivially reachable from itself.
+
+For finding $r^{(1)}$ we make use of $d^{(1)}$
+So,
+
+$$
+d^{(1)} \rightarrow r^{(1)}
+$$
+
+$$
+\begin{bmatrix} 
+      0 & 6 & 6 & \infty \\
+      \infty & 0 & 2 & 10 \\
+      \infty & 3 & 0 & 12 \\
+      1 & 7 & 7 & 0
+    \end{bmatrix} \rightarrow \left[\begin{array}{ll}
+      1 & 1 & 1 & 0 \\
+      0 & 1 & 1 & 1 \\
+      0 & 1 & 1 & 1 \\
+      1 & 1 & 1 & 1
+\end{array}\right] \\
+
+$$
+
+$$
+\therefore r^{(1)} = \begin{bmatrix} 
+      1 & 1 & 1 & 0 \\
+      0 & 1 & 1 & 1 \\
+      0 & 1 & 1 & 1 \\
+      1 & 1 & 1 & 1
+    \end{bmatrix}
+$$
+
+Similarly we find $r^{(2)}$, $r^{(3)}$, $r^{(4)}$ and end up with the following matrices:
+
+$$
+r^{(2)} = \begin{bmatrix} 
+      1 & 1 & 1 & 1 \\
+      0 & 1 & 1 & 1 \\
+      0 & 1 & 1 & 1 \\
+      1 & 1 & 1 & 1
+    \end{bmatrix}
+$$
+
+$$
+r^{(3)} = \begin{bmatrix} 
+      1 & 1 & 1 & 1 \\
+      0 & 1 & 1 & 1 \\
+      0 & 1 & 1 & 1 \\
+      1 & 1 & 1 & 1
+    \end{bmatrix}
+$$
+
+$$
+r^{(4)} = \begin{bmatrix} 
+      1 & 1 & 1 & 1 \\
+      1 & 1 & 1 & 1 \\
+      1 & 1 & 1 & 1 \\
+      1 & 1 & 1 & 1
+    \end{bmatrix}
+$$
+
+Hence for the given graph each and every vertex $j$ can be visited from any vertex $i$.
+
 ---
 
 2. (a) Explain **Optimal Binary Search Tree**  
