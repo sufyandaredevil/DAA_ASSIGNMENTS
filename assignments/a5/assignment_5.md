@@ -7,34 +7,34 @@
 
 1. Find the **Maximum Flow** in the given **Flow Network** using **Ford Fulkerson** Algorithm:
 
-   > ```mermaid
-   > graph LR;
-   > S((S)) --0/8--> A((A));
-   > S --0/3--> D((D));
-   > A --0/9--> B((B));
-   > D --0/7--> B;
-   > D --0/4--> C((C));
-   > B --0/2--> T((T));
-   > C --0/5--> T;
-   > ```
+```mermaid
+graph LR;
+S((S)) --0/8--> A((A));
+S --0/3--> D((D));
+A --0/9--> B((B));
+D --0/7--> B;
+D --0/4--> C((C));
+B --0/2--> T((T));
+C --0/5--> T;
+```
 
 2. Find the **Maximum Matching** for the given **Bipartite Graph**:
-   > ```mermaid
-   > graph TD;
-   > A((A)) ---- R((R));
-   > A ---- M((M));
-   > B((B)) ---- S((S));
-   > C((C)) ---- N((N));
-   > C ---- M;
-   > D((D)) ---- T((T));
-   > D ---- N;
-   > D ---- W((W));
-   > E((E)) ---- S;
-   > E ---- M;
-   > F((F)) ---- R;
-   > F ---- T;
-   > F ---- S;
-   > ```
+```mermaid
+graph TD;
+A((A)) ---- R((R));
+A ---- M((M));
+B((B)) ---- S((S));
+C((C)) ---- N((N));
+C ---- M;
+D((D)) ---- T((T));
+D ---- N;
+D ---- W((W));
+E((E)) ---- S;
+E ---- M;
+F((F)) ---- R;
+F ---- T;
+F ---- S;
+```
 
 3. Find the maximum value of $Z$ using **Simplex Method** where:
 
