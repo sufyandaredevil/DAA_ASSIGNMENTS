@@ -36,7 +36,7 @@
    >     F ---- S;
    > ```
 
-3. Find the maximum value of Z where:
+3. Find the maximum value of $Z$ using **Simplex Method** where:
 
     $Z = 5 x_1 + 3 x_2$
 
@@ -44,9 +44,9 @@
 
     $x_1 + x_2 \leqslant 2$
 
-    $5 x_1 + 2 x_2 \leqslant 2$
+    $5 x_1 + 2 x_2 \leqslant 10$
 
-    $3 x_1 + 8 x_2 \leqslant 2$
+    $3 x_1 + 8 x_2 \leqslant 12$
 
 
 ---
