@@ -9,13 +9,13 @@
 
 ```mermaid
 graph LR;
-S((S)) --0/8--> A((A));
-S --0/3--> D((D));
-A --0/9--> B((B));
-D --0/7--> B;
-D --0/4--> C((C));
-B --0/2--> T((T));
-C --0/5--> T;
+S((S)) --8--> A((A));
+S --3--> D((D));
+A --9--> B((B));
+D --7--> B;
+D --4--> C((C));
+B --2--> T((T));
+C --5--> T;
 ```
 
 2. Find the **Maximum Matching** for the given **Bipartite Graph**:
