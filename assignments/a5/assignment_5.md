@@ -40,7 +40,7 @@ F ---- S;
 
     $Z = 5 x_1 + 3 x_2$
 
-    <ins>With constraints:</ins>
+    <ins>Subject to constraints:</ins>
 
     $x_1 + x_2 \leqslant 2$
 
