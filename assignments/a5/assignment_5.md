@@ -48,6 +48,8 @@ F ---- S;
 
     $3 x_1 + 8 x_2 \leqslant 12$
 
+    $with$ $x_1, x_2 \geq 0$ 
+
 
 ---
 ##### (ANSWERS WILL BE POSTED LATER)
