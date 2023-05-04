@@ -1,8 +1,8 @@
 # DAA MISC:
 
 - ## ASSIGNMENTS:
-  >|[1](./assignments/a1/assignment_1.md)|[2](./assignments/a2/assignment_2.md)|[3](./assignments/a3/assignment_3.md) |[4 (Q)](./assignments/a4/assignment_4.md)|[5 (Q)](./assignments/a5/assignment_5.md)|
-  >|-|-|-|-|-|
+  > **ARCHIVED**
+  >
 
 - ## LAB PROGRAMS:
   > |Ex. No.|Ex. Date|Ex. Name|
