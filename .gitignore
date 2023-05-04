@@ -1,5 +1,6 @@
 /.vscode
 /ARCHIVE
+/OTHER/.venv
 test.py
 test.md
 *.exe
